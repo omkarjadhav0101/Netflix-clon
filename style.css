@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:url("assets/images/bg.jpeg") ;
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vw);
+}
+.main .box{
+    height: 70vh;
+    width:100%;
+    opacity:0.44;
+    background-color: black;
+    position:absolute;
+    top:0;
+   
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display:flex;
+    align-items:center;
+    height: 62px;
+    z-index:10;
+    padding:29px;
+}
+ nav img{
+    color: red;
+    width: 130px;
+    position:relative;
+    z-index: 10;
+    padding: 12px;
+}
+nav button{
+    position:relative;
+    z-index: 10;
+}
+.hero{
+    color:white;
+    position: relative;
+    display: flex;
+    height: calc(100% - 62px); 
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    font-family:'Martel Sans', sans-serif;
+    gap: 20px;
+    padding:0 233;
+    text-align:center;
+
+}
+.hero :nth-child(1){
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.sepration{
+    height: 8px;
+    background-color: rgb(86, 81, 81);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgb(31, 31, 31);
+        opacity:0.88;
+    border-radius: 7px;
+    color:white;
+}
+.red-btn{
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    }
+    .main input{
+        padding: 5px;
+        border-radius: 7px;
+        background-color: rgb(31, 31, 31);
+        opacity:0.88;
+        font-size:20px;
+        
+}
+.red-sn{
+    background-color: red;
+    color:white;
+    border-radius: 7px;
+    padding: 5px;
+    
+    }
+    div:nth-child(1){
+        flex-wrap: wrap;
+    }
+    .first{
+        display:flex;
+        justify-content: center;
+        max-width: 70vw;
+        margin: auto;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Martel Sans', sans-serif;
+        font-size: 24px;
+      
+
+    }
+    
+.secimage img{
+    width: 401px;
+    position:relative;
+    z-index:10;
+    overflow: hidden;
+}
+.secimage{
+    position: relative;
+}
+.secimage video{
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    width: 401px;
+  
+   
+}
+.feq{
+    color:white;
+    text-align: center;
+}
+.feqbox:hover{
+    background-color: rgb(76, 73, 73);
+    /* transition:all 1s ease-in-out; */
+
+}
+.feqbox{
+
+    display: flex;
+    justify-content: space-between;
+    margin:  34px auto;
+    max-width: 40vh;
+    background-color: rgb(180, 172, 172);
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+h2{
+    font-size: 48px;
+}
+footer{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     color:white;
+     display: flex;
+     max-width: 60vw;
+     margin: auto;
+     gap: 40px;
+     padding: 34px;
+     
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+    color:gray;
+    font-size: 14px;
+}
+@media only screen and  (max-width:1300px){
+    nav{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display:flex;
+    align-item:center;
+    height: 62px;
+    z-index:10;
+    padding:29px;
+    gap:80px;
+}
+   
+    
+ }
+@media only screen and  (max-width:1300px){
+   .first {
+         flex-wrap: wrap;
+    }
+   
+}
+@media only screen and  (max-width:1300px){
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color:white;    
+   }
+    
+ }
+@media only screen and  (max-width:1300px){
+    .red-btn{
+        background-color: red;
+        color: white;
+        border-radius: 7px;
+        padding: 10px;
+    }
+        .main input{
+            padding: 10px;
+            border-radius: 7px;
+            background-color: rgb(31, 31, 31);
+            opacity:0.88;
+            font-size:20px;
+            width: 200px;      
+    }
+}
+@media only screen and  (max-width:1300px){
+    .main{
+        background-image:url("assets/images/bg.jpeg") ;
+        height: 70vh;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1200px 100vw);
+        /* width:902px; */
+    }
+   
+}
